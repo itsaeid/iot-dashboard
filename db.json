@@ -1,0 +1,45 @@
+{
+  "user": {
+    "id": 1,
+    "name": "Saeid Ashouri",
+    "avatar": "/avatars/user.png"
+  },
+
+  "stats": {
+    "total": 15,
+    "online": 9,
+    "offline": 4,
+    "error": 2
+  },
+
+  "sensors": [
+    { "id": 1, "name": "New York Cam", "type": "camera", "status": "online", "battery": 90, "location": { "lat": 40.7128, "lng": -74.006 } },
+    { "id": 2, "name": "London Radar", "type": "radar", "status": "online", "battery": 80, "location": { "lat": 51.5074, "lng": -0.1278 } },
+    { "id": 3, "name": "Berlin Sensor", "type": "sensor", "status": "online", "battery": 75, "location": { "lat": 52.52, "lng": 13.405 } },
+    { "id": 4, "name": "Paris Sensor", "type": "sensor", "status": "online", "battery": 70, "location": { "lat": 48.8566, "lng": 2.3522 } },
+    { "id": 5, "name": "Tokyo Cam", "type": "camera", "status": "online", "battery": 85, "location": { "lat": 35.6762, "lng": 139.6503 } },
+    { "id": 6, "name": "Sydney Radar", "type": "radar", "status": "online", "battery": 65, "location": { "lat": -33.8688, "lng": 151.2093 } },
+    { "id": 7, "name": "Toronto Sensor", "type": "sensor", "status": "online", "battery": 60, "location": { "lat": 43.6532, "lng": -79.3832 } },
+    { "id": 8, "name": "Dubai Cam", "type": "camera", "status": "online", "battery": 55, "location": { "lat": 25.2048, "lng": 55.2708 } },
+    { "id": 9, "name": "Singapore Sensor", "type": "sensor", "status": "online", "battery": 50, "location": { "lat": 1.3521, "lng": 103.8198 } },
+
+    { "id": 10, "name": "Madrid Sensor", "type": "sensor", "status": "offline", "battery": 0, "location": { "lat": 40.4168, "lng": -3.7038 } },
+    { "id": 11, "name": "Rome Radar", "type": "radar", "status": "offline", "battery": 0, "location": { "lat": 41.9028, "lng": 12.4964 } },
+    { "id": 12, "name": "Bangkok Sensor", "type": "sensor", "status": "offline", "battery": 0, "location": { "lat": 13.7563, "lng": 100.5018 } },
+    { "id": 13, "name": "Mexico City Cam", "type": "camera", "status": "offline", "battery": 0, "location": { "lat": 19.4326, "lng": -99.1332 } },
+
+    { "id": 14, "name": "Moscow Radar", "type": "radar", "status": "error", "battery": 30, "location": { "lat": 55.7558, "lng": 37.6173 } },
+    { "id": 15, "name": "São Paulo Sensor", "type": "sensor", "status": "error", "battery": 20, "location": { "lat": -23.5505, "lng": -46.6333 } }
+  ],
+
+  "notifications": [
+    {
+      "id": 1,
+      "sensorId": 3,
+      "message": "Radar B2 reported an error",
+      "type": "error",
+      "read": false,
+      "createdAt": "2025-01-01T10:00:00Z"
+    }
+  ]
+}
