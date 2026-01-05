@@ -8,6 +8,10 @@ Back-end we just used a Mock api that used json srver.
 
 ---
 
+## Figma design link:
+
+https://www.figma.com/design/OZhGx4Va0zFvyubKcpk6am/Control-Dashboard?node-id=82-174&t=mlrQiObtkcR4hDDG-1
+
 ## ✨ Features
 
 - 🌍 **Global Sensor Map**
